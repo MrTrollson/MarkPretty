@@ -8,7 +8,7 @@ header {
 	font-size: 32px;
 }
 
-#HomePage {
+.HomePage {
 	width: 100%;
 	border-top: 100px;
 	height: 50px;
