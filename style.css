@@ -8,6 +8,12 @@ header {
 	font-size: 32px;
 }
 
+#HomePage {
+	width: 100%;
+	border-top: 100px;
+	height: 50px;
+}
+
 h1 {
 	text-align: center;
 	color: orange;
