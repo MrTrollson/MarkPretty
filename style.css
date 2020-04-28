@@ -1,5 +1,5 @@
 header {
-	background-color: orange;
+	background-color: darkblue;
 	border-bottom: 100px;
 	position: fixed;
 	width: 100%;
@@ -10,5 +10,5 @@ header {
 
 h1 {
 	text-align: center;
-	color: darkblue;
+	color: orange;
 };
