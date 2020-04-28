@@ -1,3 +1,11 @@
+header {
+	background-color: orange;
+	border-bottom: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
 h1 {
 	text-align: center;
 	color: darkblue;
