@@ -1,24 +1,231 @@
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+Html, body {
+	Height: 100%;
+	Width: 100%;
+	Font-family: 'Poppins', sans-serif; //The backup font is Sans-Serif
+	Color: #222; //This is the text color, a bit lighter than black
 }
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-	
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-	
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-
-.h1 {
-	text-align: center;
+	 
+To style the navigation bar
+.navbar {
+	Padding: 0.8rem; // 1 rem = 16px
+}
+ 
+.navbar-nav li {
+	Padding-right: 20px;
+}
+ 
+.nav-link {
+	Font-size: 1.1em !important;
+}
+ 
+To style the carousel
+.carousel-inner img {     //This references the images in the carousel
+	Width: 100%;
+	Height: 100%; //This makes the images take up the full screen
+	 
+.carousel-caption {
+	Position: absolulte;
+	Top: 50%;
+	Transform: translateY(-50%); //This changes the y-axis of the carousel caption
+}
+ 
+.carousel-caption h1 {    //We are selecting just the H1 of the carousel caption, not all H1
+	Font-size: 500%;
+	Text-transform: uppercase;
+	Text-shadow: 1px 1px 10px #000; // 1px vertical, 1 px horizontal, 10px width, color black
+}
+ 
+.carousel-caption h3 {
+	Font-size: 200%;
+	Font-weight: 500;
+	Text-shadow: 1px 1px 10px #000;
+	Padding-bottom: 1rem;
+}
+ 
+.btn-primary {
+	Background-color: #6648b1;
+	Border: 1px solid #563d7c; //A dark purple color
+}
+ 
+.btn-primary: hover {
+	Background-color: #6648b1;
+	Border: 1px solid #563d7c; //A dark purple color
+}
+ 
+.jumbotron {
+	Padding: 1rem;
+	Border-radius: 0; //Takes away the default border on jumbotron
+}
+ 
+To style the Welcome Section
+.padding {
+	Padding-bottom: 2rem;
+}
+ 
+.welcome {
+	Width: 75%;
+	Margin: 0 auto; //This centres the margins
+	Padding-top: 2rem;
+}
+ 
+.welcome hr {
+	Border-top: 2px solid #b4b4b4;
+	Width: 95%;
+	Margin-top: 0.3rem; //This takes away some space at the top, but we add it to the bottom
+	Margin-bottom: 1rem;
+}
+	 
+.fa-code {
+	Color: #e54d26; //This makes the HTML5 image a golden yellow
+ 
+.fa-bold {
+	Color: #563d7c;
+}
+ 
+.fa-css3 {
+	Color: #2163af; //This colors the CSS3 image
+}
+ 
+.fa-code, .fa-bold, .fa-css3 {     //This applies the same styles to all these classes
+	Font-size: 4em;
+	Margin: 1rem; //Puts 1rem of space all around the elements
+}
+ 
+To style the emoji section
+.fun {
+	Width: 100%;
+	Margin-bottom: 2rem;
+}
+ 
+.gif {
+	Width: 100%;
+}
+ 
+To style the social media section
+.social a {
+	Font-size: 4.5em;
+	Padding: 3rem; //This adds padding around all the social media icons
+}
+ 
+.fa-facebook {
+	Color: #3b5998;  //This changes the color of the facebook icon to blue
+}
+ 
+.fa-twitter {
+	Color: #00aced;
+}
+ 
+.fa-google-plus-g {
+	Color: #dd4b39;
+}
+ 
+.fa-instagram {
+	Color: #517fa8;
+}
+ 
+.fa-youtube {
+	Color: #bb0000;
+}
+ 
+This changes the color of the hover effect when scrolling over the social media icons
+.fa-facebook: hover,
+.fa-twitter: hover,
+.fa-google-plus-g: hover,
+.fa-instagram: hover,
+.fa-youtube: hover { 
+	Color: #d5d5d5;
+	 
+To style the footer
+Footer {
+	Background-color: #3f3f3f;
+	Color: #d5d5d5;
+	Padding-top: 2rem; //adds space between the social media icons and the footer
+}
+ 
+Hr.light {
+	Border-top: 1px solid #d5d5d5;
+	Width: 75%;
+	Margin-top: 0.8rem;
+	Margin-bottom: 1rem;
+}
+ 
+Footer a {
+	Color: #d5d5d5;
+}
+ 
+Hr.light-100 {
+	Border-top: 1px solid #d5d5d5;
+	Width: 100%;
+	Margin-top: 0.8rem;
+	Margin-bottom: 1rem;
+}
+	 
+Media Queries (these adjust based on device screen size)
+@media (max-width: 992px) {
+	.social a {
+		Font-size: 4em;
+		Padding: 2rem;
 	}
+	 
+@media (max-width: 768px) {
+	.carousel-caption {
+		Position: absolulte;
+		Top: 45%;
+	}
+	 
+	.carousel-caption h1 {    //We are selecting just the H1 of the carousel caption, not all H1
+		Font-size: 350%;
+	}
+	 
+	.carousel-caption h3 {
+		Font-size: 140%;
+		Font-weight: 400;
+		Padding-bottom: 0.2rem;
+	}
+		 
+	.carousel-caption .btn {
+		Font-size: 95%;
+		Padding: 8px 14px; //Makes padding 8px top/bottom, 14px left/right
+	}
+	 
+	.display-4 {
+		Font-size: 200%
+	}
+	 
+	.social a {
+		Font-size: 2.5em;
+		Padding: 1.2rem;
+	}
+	 
+@media (max-width: 576px) {
+	.carousel-caption {
+		Position: absolulte;
+		Top: 40%;
+	}
+	 
+	.carousel-caption h1 {    //We are selecting just the H1 of the carousel caption, not all H1
+		Font-size: 250%;
+	}
+	 
+	.carousel-caption h3 {
+		Font-size: 110%;
+	}
+		 
+	.carousel-caption .btn {
+		Font-size: 90%;
+		Padding: 4px 8px; //Makes padding 8px top/bottom, 14px left/right
+	}
+	 
+	.carousel-indicators {
+		Display: none;
+	}
+	 
+	.display-4 {
+		Font-size: 160%;
+	}
+	 
+	.social a {
+		Font-size: 2em;
+		Padding: 0.7rem;
+	}
+
