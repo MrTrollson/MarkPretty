@@ -1,8 +1,8 @@
 Html, body {
 	Height: 100%;
 	Width: 100%;
-	Font-family: 'Poppins', sans-serif; //The backup font is Sans-Serif
-	Color: #222; //This is the text color, a bit lighter than black
+	Font-family: 'Poppins', sans-serif; 
+	Color: #222; 
 }
 	 
 To style the navigation bar
@@ -19,20 +19,20 @@ To style the navigation bar
 }
  
 To style the carousel
-.carousel-inner img {     //This references the images in the carousel
+.carousel-inner img {     
 	Width: 100%;
-	Height: 100%; //This makes the images take up the full screen
+	Height: 100%;
 	 
 .carousel-caption {
 	Position: absolulte;
 	Top: 50%;
-	Transform: translateY(-50%); //This changes the y-axis of the carousel caption
+	Transform: translateY(-50%); 
 }
  
-.carousel-caption h1 {    //We are selecting just the H1 of the carousel caption, not all H1
+.carousel-caption h1 {    
 	Font-size: 500%;
 	Text-transform: uppercase;
-	Text-shadow: 1px 1px 10px #000; // 1px vertical, 1 px horizontal, 10px width, color black
+	Text-shadow: 1px 1px 10px #000;
 }
  
 .carousel-caption h3 {
@@ -44,17 +44,17 @@ To style the carousel
  
 .btn-primary {
 	Background-color: #6648b1;
-	Border: 1px solid #563d7c; //A dark purple color
+	Border: 1px solid #563d7c; 
 }
  
 .btn-primary: hover {
 	Background-color: #6648b1;
-	Border: 1px solid #563d7c; //A dark purple color
+	Border: 1px solid #563d7c; 
 }
  
 .jumbotron {
 	Padding: 1rem;
-	Border-radius: 0; //Takes away the default border on jumbotron
+	Border-radius: 0;
 }
  
 To style the Welcome Section
@@ -64,26 +64,26 @@ To style the Welcome Section
  
 .welcome {
 	Width: 75%;
-	Margin: 0 auto; //This centres the margins
+	Margin: 0 auto; 
 	Padding-top: 2rem;
 }
  
 .welcome hr {
 	Border-top: 2px solid #b4b4b4;
 	Width: 95%;
-	Margin-top: 0.3rem; //This takes away some space at the top, but we add it to the bottom
+	Margin-top: 0.3rem; 
 	Margin-bottom: 1rem;
 }
 	 
 .fa-code {
-	Color: #e54d26; //This makes the HTML5 image a golden yellow
+	Color: #e54d26; 
  
 .fa-bold {
 	Color: #563d7c;
 }
  
 .fa-css3 {
-	Color: #2163af; //This colors the CSS3 image
+	Color: #2163af; 
 }
  
 .fa-code, .fa-bold, .fa-css3 {     //This applies the same styles to all these classes
