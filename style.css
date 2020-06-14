@@ -10,11 +10,11 @@ Html, body {
 <!-Navigation Bar->
 
 .navbar-brand img {
-	Height: 2.8rem; 
+	height: 2.8rem; 
 }
 
 /To change the background color of the navigation
 .navbar {
-	Background: linear-gradient(to right, #f2f2f2, #FBFBFB); 
+	background: grey;
 }
 
