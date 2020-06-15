@@ -7,13 +7,10 @@ Html, body {
 }
 
 
-<!-Navigation Bar->
-
 .navbar-brand img {
 	height: 2.8rem; 
 }
 
-/To change the background color of the navigation
 .navbar {
 	background: grey;
 }
