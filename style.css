@@ -8,10 +8,26 @@ Html, body {
 
 
 .navbar-brand img {
-	height: 2.8rem; 
+	Height: 2.8rem; 
 }
 
 .navbar {
-	background: grey;
+	Background: linear-gradient(to right, #f2f2f2, #FBFBFB); 
+	Font-size: 1.1rem;
+	Text-transform: uppercase;
+	Letter-spacing: 0.1rem;
+	Box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
+.nav-item {
+	Padding: 0.4rem; 
+}
+
+.nav-link {
+	Color: black!important; 
+}
+
+.nav-link.active, 
+.nav-link: hover {
+	Color: #396AFC!important;
+}
