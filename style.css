@@ -2,13 +2,14 @@
 .myNav {
     display: block;
     height: 50px;
-    background: linear-gradient(to right, darkblue, lightblue)
+    width: 100%;
+    background: linear-gradient(to right, darkblue, purple)
 }
 
 .myNav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: -10px;
     text-align: center;
 }
 
@@ -21,16 +22,47 @@
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
-    color: white;
+    color: lightblue;
     font-family: Helvetica;
     text-transform: uppercase;
 }
 
 
-/*JUMBOTRON HOME*/
+/*WELCOME*/
 .jumbotron {
   padding: 40px;
   text-align: center;
   width: 100%;
   background: #DBE9EE;
 }
+
+.jumbotron h1 {
+  font-family: century gothic;
+  font-size: 48px;
+  color: darkblue;
+}
+
+.jumbotron p {
+  font-family: century gothic;
+}
+
+
+/*EDUCATION*/
+.education {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  background: white;
+}
+
+.education h1 {
+  font-family: century gothic;
+  font-size: 36px;
+  color: darkblue;
+}
+
+.education img {
+  width: 250px;
+  height: 200px;
+}
+
