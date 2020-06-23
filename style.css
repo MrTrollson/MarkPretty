@@ -40,6 +40,15 @@
   font-family: century gothic;
   font-size: 48px;
   color: darkblue;
+  text-shadow: 1px 1px 1px #bbb,
+		2px 2px 0 #999, 
+		3px 3px 0 #888, 
+		4px 4px 0 #777, 
+		5px 5px 0 #666, 
+		6px 6px 0 #555, 
+		7px 7px 0 #444, 
+		8px 8px 0 #333, 
+		9px 9px 7px #302314;
 }
 
 .jumbotron p {
@@ -61,8 +70,41 @@
   color: darkblue;
 }
 
+.education h3 {
+  font-family: algerian;
+  font-size: 20px;
+}
+
+.education p {
+  font-family: cambria math;
+  font-size: 16px;
+}
+
 .education img {
   width: 250px;
   height: 200px;
 }
 
+
+/*WORK EXPERIENCE*/
+.experience {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  background: #2e3435;
+}
+
+.experience h1 {
+  font-family: century gothic;
+  font-size: 36px;
+  color: white;
+  text-shadow: 1px 1px 1px #bbb,
+		2px 2px 0 #fe4902, 
+		3px 3px 0 #fe4902, 
+		4px 4px 0 #fe4902, 
+		5px 5px 0 #fe4902, 
+		6px 6px 0 #fe4902, 
+		7px 7px 0 #fe4902, 
+		8px 8px 0 #fe4902, 
+		9px 9px 7px #fe4902;
+}
